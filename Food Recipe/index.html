@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Food Recipe</title>
+  </head>
+  <body>
+    <div class="loader"></div>
+    <div class="overlay hide"></div>
+    <div class="food-recipe">
+      <div class="instruction hide">
+        <i class="fa-solid fa-xmark exit"></i>
+        <img src="pic1.webp" alt="meal img" class="img instruc-img" />
+        <div class="info">
+          <h2 class="instuct-heading">Instructions</h2>
+          <p class="steps">
+            Heat oven to 180C/160C fan/gas 4. Heat the oil in a large frying pan
+            and cook the onion for 8-10 mins until softened. Add the garlic,
+            Worcestershire sauce and 2
+          </p>
+          <a href="#" target="_blank" class="watch-btn">Watch a video</a>
+        </div>
+      </div>
+      <div class="recipe-header">
+        <h1 class="heading">Find your favourite meal</h1>
+        <p class="slogan">There is no sincerer love than the love of food</p>
+        <p class="name">Gorge Bernard</p>
+        <div class="search-box">
+          <input type="search" class="search" placeholder="Search your meal" />
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+      </div>
+
+      <div class="result-section">
+        <h2 class="search-res">Your Search Result</h2>
+        <div class="cards">
+          <!-- <div class="card">
+              <img src="pic1.webp" alt="meal" class="img" />
+              <p class="meal-title">Beef Lo mein</p>
+              <button class="get-recipe">Get recipe</button>
+            </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
